@@ -43,15 +43,15 @@ git clone https://github.com/johnwesleyquintero/giftmate.git
 cd giftmate
 ```
 
-# Run a local server
+2. Run a local server
 ```python
 python -m http.server 8000
 ```
 
-2. Open `Index.html` in your browser
+3. Open `Index.html` in your browser
 
 
-2. Open `Index.html` in your browser
+
 
 ## 🤝 Contributing
 
