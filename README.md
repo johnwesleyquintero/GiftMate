@@ -22,7 +22,7 @@ GiftMate Landing Page - A smart companion app that helps you track important dat
 
 
 <div align="center">
-  <img src="assets/preview.svg" alt="GiftMate Preview" width="400" />
+  <img src="assets/preview.svg" alt="GiftMate Preview" width="200" />
 </div>
 
 ***[Demo](https://giftmate-dev.netlify.app/)***
