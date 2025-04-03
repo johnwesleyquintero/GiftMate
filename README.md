@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="assets/logo.svg" alt="GiftMate Logo" width="600" />
+  <img src="assets/logo.svg" alt="GiftMate Logo" width="400" />
 
   [![Netlify Status](https://api.netlify.com/api/v1/badges/0a2e53da-723e-4bb4-ae3b-6113fc5e96ea/deploy-status)](https://app.netlify.com/sites/giftmate-dev/deploys)
   [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
@@ -22,7 +22,7 @@ GiftMate Landing Page - A smart companion app that helps you track important dat
 
 
 <div align="center">
-  <img src="assets/preview.svg" alt="GiftMate Preview" width="600" />
+  <img src="assets/preview.svg" alt="GiftMate Preview" width="300" />
 </div>
 
 ***[Demo](https://giftmate-dev.netlify.app/)***
@@ -43,15 +43,15 @@ git clone https://github.com/johnwesleyquintero/giftmate.git
 cd giftmate
 ```
 
-# Run a local server
+2. Run a local server
 ```python
 python -m http.server 8000
 ```
 
-2. Open `Index.html` in your browser
+3. Open `Index.html` in your browser
 
 
-2. Open `Index.html` in your browser
+
 
 ## 🤝 Contributing
 
