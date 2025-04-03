@@ -22,7 +22,7 @@ GiftMate Landing Page - A smart companion app that helps you track important dat
 
 ![GiftMate Preview](assets/preview.svg)
 
-Experience GiftMate in action at [giftmate-page.netlify.app](https://giftmate-page.netlify.app)
+Experience GiftMate in action at [giftmate-page.netlify.app](https://giftmate.netlify.app)
 
 ## 💻 Tech Stack
 
