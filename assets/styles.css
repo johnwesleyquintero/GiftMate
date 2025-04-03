@@ -1,9 +1,19 @@
 :root {
-    --pink-light: #FF9BB3;
-    --pink-dark: #FF6B8B;
-    --peach: #FFB88C;
-    --white: #FFF9FB;
-    --text: #5A3A4E;
+  --primary-color: #FF6B8B;
+  --secondary-color: #4A90E2;
+  --text-color: #2D3748;
+  --background-color: #FFFFFF;
+  --success-color: #48BB78;
+  --error-color: #F56565;
+  --transition-timing: 0.2s;
+  --max-content-width: 1200px;
+  --spacing-unit: 1rem;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --transition-timing: 0s;
+  }
 }
 
 @keyframes fadeIn {
@@ -247,17 +257,18 @@ footer:hover {
 }
 
 .page-content {
-    max-width: 800px;
+    max-width: var(--max-content-width);
     margin: 0 auto;
-    padding: 20px;
+    padding: calc(var(--spacing-unit) * 2) var(--spacing-unit);
 }
 
 .content-section {
-    background: white;
-    padding: 30px;
-    border-radius: 15px;
-    margin-bottom: 30px;
-    box-shadow: 0 5px 20px rgba(255, 107, 139, 0.1);
+    margin-bottom: calc(var(--spacing-unit) * 3);
+    background: var(--background-color);
+    border-radius: 8px;
+    padding: var(--spacing-unit);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    transition: box-shadow var(--transition-timing);
 }
 
 .content-section h2 {
@@ -360,4 +371,32 @@ footer:hover {
         animation: none !important;
         transition: none !important;
     }
+}
+
+button, .button {
+  transition: 
+    background-color var(--transition-timing),
+    transform var(--transition-timing);
+}
+
+button:focus-visible,
+a:focus-visible {
+  outline: 2px solid var(--primary-color);
+  outline-offset: 2px;
+}
+
+@media (max-width: 768px) {
+  .page-content {
+    padding: var(--spacing-unit);
+  }
+  
+  .content-section {
+    margin-bottom: calc(var(--spacing-unit) * 2);
+  }
+}
+
+@media (max-width: 480px) {
+  :root {
+    --spacing-unit: 0.75rem;
+  }
 }
